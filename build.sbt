@@ -10,4 +10,4 @@ scalacOptions := Seq("-deprecation", "-unchecked")
 
 publishMavenStyle := true
 
-publishTo := Some(Resolver.file("Development Repo", file((Path.userHome / "srv" / "maven").toString)))
+publishTo := Some(Resolver.file("GitHub Pages", file("../junit_xml_listener-gh-pages/maven/")))
